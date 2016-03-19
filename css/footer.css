@@ -1,0 +1,276 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	min-width: 1280px;
+	height: 100%;
+}
+ul{
+	list-style: none;
+}
+
+/*新时代*/
+
+section.new{
+	font-family: "Microsoft Yahei";
+	height: 507px;
+	width: 100%;
+}
+li.new_time{
+	width: 424px;
+	height: 507px;
+	float: left;
+}
+article{
+	margin-top: 172px;
+}
+li.new_time_one{
+	background: #E7504D;
+	color: #fff;
+}
+li.new_time_two{
+	background: #fff;
+	color: #333333;
+}
+li.new_time_three img{
+	width: 426px;
+	height: 507px;
+	margin-top: 0px;
+}
+li.new_time_three:before{
+	content: url(../task7_images/task7_content_7_3.png);
+	position: absolute;
+	line-height: 507px;
+	margin-left: -2px;
+}
+.new_time p{
+	text-align: center;
+	font-size: 21px;
+	padding-top: 10px;
+	font-weight: normal;
+}
+.new_time img{
+	margin-top: 25px;
+	display: block;
+	position: center;
+}
+.new_time a{
+	margin-top: 27px;
+	line-height: 42px;
+	width: 165px;
+	height: 42px;
+	border: 2px solid #fff;
+	font-size: 21px;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	display: block;
+	text-align: center;
+}
+.new_time a:hover{
+	background: #E46868;
+	color: #fff;
+}
+.new_time_two a{
+	border: 2px solid #E7504D;
+	color: #E7504D;
+}
+
+
+/*volunteer部分*/
+
+.volunteer{
+	font-family: "Microsoft Yahei";
+	height: 790px;
+	
+}
+.volunteer div{
+	height: 191px;
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+}
+.volunteer p{
+	font-size: 21px;
+	color: #333333;
+}
+.volunteer p.text{
+	width: 424px;
+	padding-top: 13px;
+	font-size: 12px;
+	color: #ABAAAA;
+}
+.clause{
+	width: 425px;
+	height: 448px;
+	float: left;
+}
+.clause h3{
+	font-size: 14px;
+	color: #595857;
+	text-indent: 139px;
+}
+.clause p{
+	font-size: 12px;
+	color: #929292;
+	width: 289px;
+	margin-left: 139px;
+	margin-top: 28px;
+	
+}
+.clause a{
+	display: inline-block;
+	position: relative;
+	margin-bottom: 55px;
+	left: 386px;
+}
+
+　　input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+　　color: #717171;
+　　}
+　　input:-moz-placeholder, textarea:-moz-placeholder {
+　　color: #717171;
+　　}
+　　input::-moz-placeholder, textarea::-moz-placeholder {
+　　color: #717171;
+　　}
+　　input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+　　color: #717171;
+　　}
+td{
+	width: 310px;
+	height: 40px;
+	border-bottom: 15px solid #fff;
+	border-left: 20px solid #fff;
+	border-right: 20px solid #fff;	
+}
+
+.information{
+	width: 400px;
+	}
+	td{
+		border: 0;
+		border-left: 20px solid #fff;
+		border-right: 20px solid #fff;
+		border-bottom: 15px solid #fff;
+	}
+	textarea{
+		padding:0 10px;
+		box-sizing: border-box;
+		height: 200px;
+		width: 660px;
+		background-color: #EDEDED;
+		border: none;
+		margin-bottom: 15px;
+	}
+	.name input{
+		padding:0 10px;
+		box-sizing: border-box;
+		border: 0;
+		width: 310px;
+		height: 40px;
+		background-color: #EDEDED;
+	}
+	.submitapply input{
+		width: 660px;
+	}
+	.submitapply{
+		cursor: pointer;
+		color: #2A2A2A;
+		font-family: "微软雅黑";
+		font-weight: bold;
+		font-size: 16px;
+	}
+	.name input.submitapply:hover{
+		background-color: #B5B5B5;
+		color: #fff;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+
+
+
+
+/*联系我们*/
+
+.contact_us{
+	background-color: #33363F;
+	color: #fff;
+	height: 357px;
+}
+.contact_us h2{
+	font-size: 21px;
+	font-family: "Microsoft Yahei";
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 15px;
+}
+.contact_us p{
+	width: 472px;
+	text-align: center;
+	font-size: 12px;
+	font-family: "宋体";
+}
+.contact_us form{
+	width: 510px;
+	height: 42px;
+	margin: 31px auto 0;
+
+}
+input.email{
+	width: 430px;
+	height: 42px;
+	border: none;
+	outline: none;
+	float: left;
+}
+input.submit{
+	width: 80px;
+	height: 42px;
+	background: #696266;
+	color: #fff;
+	font-family: "Microsoft Yahei";
+	font-size: 15px;
+	outline: none;
+	border: none;
+	float: left;
+	letter-spacing: 7px;
+	cursor: pointer;
+}
+input.submit:hover{
+	background-color: #A5A5A5;
+	color: #fff;
+}
+.contact_us ul{
+	width: 214px;
+	display: flex;
+	margin-top: 36px;
+}
+.contact_us ul li{
+	display: inline-block;
+	cursor: pointer;
+}
+.contact_us ul li a:hover img{
+	filter:alpha(Opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8
+}
+footer{
+	width: 100%;
+	height: 58px;
+	background-color: #303039;
+}
+span.left,.right{
+	line-height: 58px;
+}
+span.left{
+	margin-left: 44px;
+}
+span.right{
+	margin-left: 1054px;
+}
+
+

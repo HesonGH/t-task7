@@ -1,0 +1,215 @@
+/*------城市活动*/
+li{
+    list-style: none;
+}
+.city_activity {
+    min-width: 1280px;
+    width: 100%;
+    height: 500px;
+    background-color: #eaeaea;
+}
+
+.beijing {
+    float: left;
+    width: 15%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.shanghai ,.shenzhen,.hongkong {
+    float: left;
+    width: 15%;
+    height: 100%;
+    margin-left: 3%;
+
+}
+
+/*-----------------------------------------图片的css*/
+.shanghai_img {
+    background-color: white;
+    border: solid 1px #bababa;
+    margin-top: 10px;
+    width: 180px;
+    height: 280px;
+    margin-left: 10px;
+}
+.beijing_img ,.shenzhen_img,.hongkong_img {
+    background-color: white;
+    margin-top: 30%;
+    border: solid 1px #bababa;
+    width: 180px;
+    height: 280px;
+    margin-left: 10px;
+}
+
+/*图片旁边的文字介绍*/
+
+.city_activity span {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#text_bj, #text_sz, #text_hk {
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+#text_sh {
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content {
+    margin-top: 10px;
+    color: #514e46;
+}
+
+/*展示新世界的轮播图*/
+
+.new_world {
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    height: 560px;
+    background-color: #ffffff;
+    font-family: "黑体";
+}
+.new_world:after{
+    content: url(../task7_images/task7_content_7_4.png);
+    position: absolute;
+    line-height: 507px;
+    margin-left: 824px;
+}
+.world_one,.world_two,.world_three{
+    position: absolute;
+}
+
+
+.world_img{
+    width: 850px;
+    height: 560px;
+    float: left;
+    overflow: none
+
+}
+.world_text{
+    float: left;
+    background-color: #ffffff;
+    width: 26%;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 75px;
+}
+.world_text_1{
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.world_text_2{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+.world_text_3{
+    line-height: 50px;
+    width: 20%;
+    color: #adadad;
+}
+.more_info_div{
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.more_info{
+    background-color: #ffffff;
+    color: red;
+    font-size: 18px;
+    width: 150px;
+    height:50px;
+    border:solid 2px red;
+}
+
+/*.world_text ul li{*/
+    /*list-style: none;*/
+    /*float: left;*/
+    /*border: solid 1px gray;*/
+    /*border-radius: 50%;*/
+    /*height: 10px;*/
+    /*width: 10px;*/
+    /*margin-left: 15px;*/
+/*}*/
+
+/*.world_text ul li:hover{*/
+    /*background-color: gray;*/
+/*}*/
+
+/*三个圈的位置*/
+#ul_choose{
+    position: absolute;
+    margin-left: 106px;
+    left: 931px;
+    top: 480px;
+}
+#ul_choose li{
+    float: left;
+    list-style: none;
+}
+#ul_choose li label{
+    float: left;
+    border: solid 1px gray;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin-left: 15px;
+}
+#ul_choose li label:hover{
+    background-color: gray;
+}
+
+/*--------------------------------------------------轮播图*/
+@-webkit-keyframes pic_1 {
+    0% { opacity: 1;}
+    20% { opacity: 1;}
+    33% { opacity: 0;}
+    90% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@-webkit-keyframes pic_2 {
+    0% { opacity: 0;}
+    20% { opacity: 0;}
+    33% { opacity: 1;}
+    53% { opacity: 1;}
+    66% { opacity: 0;}
+    100% { opacity: 0;}
+}
+@-webkit-keyframes pic_3 {
+    0% { opacity: 0;}
+    53% { opacity: 0;}
+    66% { opacity: 1;}
+    86% { opacity: 1;}
+    100% { opacity: 0;}
+}
+.world_one {
+    -webkit-animation: pic_1 18s infinite;
+    -moz-animation: pic_1 18s infinite;
+}
+.world_two{
+    -webkit-animation: pic_2 18s infinite;
+    -moz-animation: pic_2 18s infinite;
+}
+.world_three{
+    -webkit-animation: pic_3 18s infinite;
+    -moz-animation: pic_3 18s infinite;
+}
+
+#l01, #l02, #l03 {
+    display:none;
+}
+
+#l01 :checked ~ #ul_choose ul #circle_1{
+
+    background-color: red;
+}
